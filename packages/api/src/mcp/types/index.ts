@@ -109,7 +109,7 @@ export type UIResource = {
   mimeType: string;
   text: string;
   [key: string]: unknown;
-}
+};
 
 export type ImageFormatter = (item: ImageContent) => FormattedContent;
 
