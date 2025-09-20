@@ -138,3 +138,13 @@ helm/**/.values.yaml
 /.tabnine/
 /.codeium
 *.local.md
+
+# Local deployment files - never commit these
+.env
+.env.local
+*.backup
+*.bak
+data-node/
+logs/
+uploads/
+meili_data_v1.12/
